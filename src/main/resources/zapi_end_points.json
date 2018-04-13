@@ -1,0 +1,10 @@
+{
+ "zapi": {
+            "projectlist": "/rest/zapi/latest/util/project-list",
+            "projectversion": "/rest/zapi/latest/util/versionBoard-list?projectId=${projectId}",
+            "testcyclelist": "/rest/zapi/latest/cycle?projectId=${projectId}&versionId=${versionId}",
+            "testcycledetails": "/rest/zapi/latest/execution?cycleId=${testcycleid}",
+            "teststepsdetails": "/rest/zapi/latest/teststep/${testcaseid}",
+            "generatestepsid": "/rest/zephyr/latest/execution/${testExecutiuonId}?expand=checksteps"
+        }
+}

@@ -1,0 +1,7 @@
+{
+"jira": {
+ 	"baseurl": "http://tapjira.qainfotech.com:8080",
+ 	"username": "tapdemo@qainfotech.com",
+ 	"password": "qainfotech"
+ }
+}
